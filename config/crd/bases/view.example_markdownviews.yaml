@@ -42,8 +42,6 @@ spec:
           spec:
             description: MarkdownViewSpec defines the desired state of MarkdownView
             properties:
-              ViewerImage:
-                type: string
               markdowns:
                 additionalProperties:
                   type: string
@@ -53,6 +51,8 @@ spec:
                 default: 1
                 format: int32
                 type: integer
+              viewerImage:
+                type: string
             type: object
           status:
             description: MarkdownViewStatus defines the observed state of MarkdownView

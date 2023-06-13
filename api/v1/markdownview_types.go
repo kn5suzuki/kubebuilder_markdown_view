@@ -39,7 +39,7 @@ type MarkdownViewSpec struct {
 	Replicas int32 `json:"replicas,omitempty"`
 
 	// +optional
-	ViewerImage string `json:"ViewerImage,omitempty"`
+	ViewerImage string `json:"viewerImage,omitempty"`
 }
 
 // MarkdownViewStatus defines the observed state of MarkdownView
