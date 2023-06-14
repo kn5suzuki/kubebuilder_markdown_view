@@ -50,7 +50,7 @@ rules:
   - update
   - watch
 - apiGroups:
-  - view.zoetrope.github.io
+  - view.kn5suzuki.github.io
   resources:
   - markdownviews
   verbs:
@@ -62,13 +62,13 @@ rules:
   - update
   - watch
 - apiGroups:
-  - view.zoetrope.github.io
+  - view.kn5suzuki.github.io
   resources:
   - markdownviews/finalizers
   verbs:
   - update
 - apiGroups:
-  - view.zoetrope.github.io
+  - view.kn5suzuki.github.io
   resources:
   - markdownviews/status
   verbs:
